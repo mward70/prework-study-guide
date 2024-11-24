@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,7 +8,6 @@
     <link rel="stylesheet" href="prework-study-guide/assets/style.css">
     <title>Prework Study Guide</title>
   </head>
-
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
@@ -23,12 +23,73 @@
           <li>The body element represents the visible content shown to the user.</li>
         </ul>
       </section>
-
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
           <li> A margin indicates how much space we want around the outside of an element.</li>
           <li>A padding indicates how much space we want around the content inside an element.</li>
+          <li>Definition: CSS (Cascading Style Sheets) is used to style HTML elements.</li>
+          <li>Importance: Enhances the presentation of web pages</li>
+          <li>CSS Syntax
+           <ul> 
+            <li>Selector: Targets the HTML element to style.</li>
+            <li>Property: The style attribute you want to change (e.g., color, font-size).</li>
+            <li>Value: The setting for the property (e.g., red, 16px).</li>
+            <li>Example:
+            h1 {
+                color: blue;
+                font-size: 24px;}</li></ul></li>
+            <li>Selectors
+                  <ul>
+                  <li>Type Selector: Selects elements by their tag name (e.g., div, p).</li>
+                  <li>Class Selector: Selects elements with a specific class (e.g., .classname).</li>
+                  <li>ID Selector: Selects a single element with a specific ID (e.g., #idname).</li>
+                  <li>Attribute Selector: Selects elements based on an attribute (e.g., [type="text"]).</li></ul> </li>
+            <li>Box Model
+                    <ul>
+                  <li>Content: The actual content of the box.</li>
+                  <li>Padding: Space between the content and the border.</li>
+                  <li>Border: The border surrounding the padding and content.</li>
+                  <li>Margin: Space outside the border.</li></ul></li>
+            <li>Positioning
+                    <ul>
+                  <li>Static: Default positioning.</li>
+                  <li>Relative: Positioned relative to its normal position.</li>
+                  <li>Absolute: Positioned relative to its nearest positioned ancestor.</li>
+                  <li>Fixed: Positioned relative to the viewport.</li>
+                  <li>Sticky: Switches between relative and fixed based on scroll position. </li></ul></li>
+            <li>Flexbox
+              <ul>
+                  <li>A layout model that allows for responsive design.</li>
+                  <li>Key properties: display: flex;, justify-content, align-items, flex-direction. </li></ul></li>
+            <li>Grid
+              <ul>
+                  <li>A two-dimensional layout system.</li>
+                  <li>Key properties: display: grid;, grid-template-columns, grid-template-rows, grid-area. </li></ul></li>
+            <li>Responsive Design
+              <ul>
+                  <li>Use of media queries to adapt styles based on screen size.</li>
+                  <li>Example:
+                  @media (max-width: 600px) {
+                      body {
+                          background-color: lightblue;
+                      }
+                  } </li></ul></li>
+            <li>CSS Variables
+              <ul>
+                  <li>Custom properties that can be reused throughout the stylesheet.</li>
+                  <li>Example:
+                  :root {
+                      --main-color: blue;
+                  }
+                  body {
+                      color: var(--main-color);
+                  } </li></ul></li>
+            <li>Best Practices
+              <ul>
+                  <li>Keep your CSS organized and modular.</li>
+                  <li>Use comments to explain complex sections.</li>
+                  <li>Avoid inline styles; use external stylesheets for maintainability. </li></ul></li>
         </ul>
       </section>
 
@@ -39,7 +100,6 @@
           <li>git checkout -b branch name: creates a new branch and switches to it</li>
         </ul>
       </section>
-
       <section class="card" id="javascript-section">
         <h2> JavaScript</h2>
         <ul>
@@ -48,7 +108,6 @@
         </ul>
       </section>
     </main>
-
     <footer>
       <p>I can code!</p>
     </footer>
